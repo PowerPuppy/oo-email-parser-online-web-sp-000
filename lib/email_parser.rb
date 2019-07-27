@@ -14,4 +14,10 @@ attr_accessor :emails
   def all
     @data
   end
+
+  def parse
+    all.uniq
+    
+  end
+  
 end
