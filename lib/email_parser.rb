@@ -8,7 +8,7 @@ attr_accessor :emails
   def initialize(email)
     @data = []
     email_arr = email.split
-    email.arr.each {|address| address.include?(",") ? @data <<address.slice(0..-1): @data << address
+    email.arr.each {|address| address.include?(",") ? @data <<address.slice(0..-1): @data << address}
   end
 
   def all
