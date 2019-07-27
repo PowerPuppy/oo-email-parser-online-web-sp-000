@@ -17,7 +17,7 @@ attr_accessor :emails
 
   def parse
     all.uniq
-    
+
   end
-  
+
 end
