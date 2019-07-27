@@ -15,4 +15,3 @@ attr_accessor :emails
     @data
   end
 end
-
