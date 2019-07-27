@@ -6,7 +6,8 @@ class EmailParser
 attr_accessor :emails
 
 def parse(string)
-  @emails<<string.split(", ")
-  @emails
+  result = string.split(", ")
+  @emails << result
+  
 end
 end
