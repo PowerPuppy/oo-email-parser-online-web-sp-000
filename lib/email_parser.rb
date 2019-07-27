@@ -8,6 +8,6 @@ attr_accessor :emails
 def parse(string)
   result = string.split(", ")
   @emails << result
-  
+
 end
 end
